@@ -1,0 +1,127 @@
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.42;
+  color: #fff;
+  background-color: #17191c;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.header {
+  height: 120px;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 26px;
+  left: 0;
+}
+
+.menu {
+  position: absolute;
+  top: 47px;
+  left: 250px;
+}
+
+.contacts {
+  position: absolute;
+  top: 32px;
+  right: 0;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: #dfb56d;
+}
+
+.contacts {
+  font-style: normal;
+  text-align: right;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+
+.contacts__info {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #ff3d00;
+}
+
+.hello {
+  width: 776px;
+}
+
+.hello__title {
+  font-size: 72px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.hello__text {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 44px;
+}
+
+.botton {
+  background: #ff3d00;
+  border-radius: 35px;
+  padding: 18px 54px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.botton:hover {
+  background: #ff3d00;
+}
