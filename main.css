@@ -406,6 +406,7 @@ footer {
 .social__link {
   text-decoration: none;
 }
+
 .social__icon {
   display: inline-block;
   vertical-align: middle;
@@ -419,6 +420,22 @@ footer {
 .social__img {
   width: 36px;
   height: 36px;
+}
+
+.social__img--tg:hover {
+  background-image: url("/video-prod/img/social/t1.png");
+}
+
+.social__img--vk:hover {
+  background-image: url("/video-prod/img/social/vk1.png");
+}
+
+.social__img--face:hover {
+  background-image: url("/video-prod/img/social/f1.png");
+}
+
+.social__img--inst:hover {
+  background-image: url("/video-prod/img/social/in1.png");
 }
 
 .contacts__info--footer {
