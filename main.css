@@ -41,6 +41,11 @@ h6 {
   font-weight: normal;
 }
 
+.main-page-wraper {
+  background: url("/video-prod/img/hero.png") center top no-repeat,
+    url("/video-prod/img/bottom-pic.png") right bottom 306px no-repeat;
+}
+
 .container {
   margin: 0 auto;
   width: 1140px;
