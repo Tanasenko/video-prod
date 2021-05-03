@@ -76,6 +76,10 @@ h6 {
   left: 441px;
 }
 
+.menu--footer {
+  left: 329px;
+}
+
 .contacts {
   position: absolute;
   top: 32px;
@@ -345,7 +349,7 @@ h6 {
 /** About **/
 
 .about {
-  margin-bottom: 53px;
+  margin-bottom: 57px;
   position: relative;
   min-height: 552px;
 }
@@ -393,6 +397,7 @@ h6 {
 
 footer {
   position: relative;
+  margin-top: 13px;
 
   height: 146px;
   background-color: #17191c;
@@ -400,8 +405,8 @@ footer {
 
 .social {
   position: absolute;
-  top: 53;
-  right: 300px;
+  top: 36;
+  right: 263x;
 }
 
 .social__link {
@@ -411,7 +416,7 @@ footer {
 .social__icon {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 10px;
+  margin-right: 6px;
 }
 
 .social__icon:last-child {
