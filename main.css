@@ -347,6 +347,7 @@ h6 {
 .about {
   margin-bottom: 53px;
   position: relative;
+  min-height: 552px;
 }
 
 .about__img {
