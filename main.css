@@ -193,8 +193,7 @@ h6 {
   width: 362px;
   margin-right: 23px;
   background-color: #fff;
-  padding-left: 20px;
-  padding-right: 34px;
+  padding: 0 34px 53px 20px;
 }
 
 .offers__item:last-child {
