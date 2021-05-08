@@ -1,0 +1,51 @@
+.hello {
+  text-align: center;
+  margin-bottom: 233px;
+  margin-left: 6px;
+}
+
+.hello__title {
+  font-size: 72px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 1.4;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.hello__text {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 41px;
+}
+
+.botton {
+  background: #ff5500;
+  border-radius: 35px;
+  padding: 18px 54px;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.botton:hover {
+  background: #ff3d00;
+}
+
+.botton--light {
+  background: transparent;
+  border: 2px solid #ff5500;
+  color: #ff5500;
+  padding: 16px 54px;
+}
+
+.botton--light:hover {
+  color: #fff;
+}
+
+.botton--about {
+  padding: 18px 40px;
+}

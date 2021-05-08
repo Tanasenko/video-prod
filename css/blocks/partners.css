@@ -1,0 +1,40 @@
+.partners {
+  background-color: #f4f5f5;
+  padding-top: 87px;
+  padding-left: 4px;
+}
+
+.partners__title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #1a1b1e;
+}
+
+.partners__item {
+  padding-top: 73px;
+  padding-bottom: 117px;
+}
+
+.partner__items {
+  max-width: 206px;
+}
+.partner__item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 64px;
+  align-items: center;
+}
+
+.partner__item:last-child {
+  margin-bottom: 0;
+}
+
+.parter__img {
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.parter__img:hover {
+  filter: grayscale(0%);
+}
