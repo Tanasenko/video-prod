@@ -1,6 +1,7 @@
 .partners {
   background-color: #f4f5f5;
   padding-top: 87px;
+  padding-bottom: 24px;
   padding-left: 4px;
 }
 
@@ -8,12 +9,12 @@
   font-size: 48px;
   font-weight: bold;
   color: #1a1b1e;
-  padding-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .partners__item {
-  padding-top: 57px;
-  padding-bottom: 27px;
+  margin-top: 57px;
+  margin-bottom: 27px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -33,6 +34,7 @@
   text-decoration: none;
   width: 250px;
   height: 100px;
+  display: flex;
   align-items: center;
   justify-content: center;
   filter: grayscale(100%);
