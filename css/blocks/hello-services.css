@@ -1,13 +1,18 @@
 .hello-services {
   background-image: url("/video-prod/img/top-line.png");
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 27px;
 }
 
-.header--service {
-  margin-bottom: 65px;
+.hello__dervices--container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .header-services {
-  padding-bottom: 27px;
   margin-left: 2px;
 }
 
@@ -15,5 +20,5 @@
   font-size: 72px;
   font-weight: 800;
   text-transform: uppercase;
-  margin-bottom: 82px;
+  margin-bottom: 87px;
 }

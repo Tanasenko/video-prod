@@ -58,3 +58,9 @@ h6 {
 .container--footer {
   border-top: 1px solid #353538;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}

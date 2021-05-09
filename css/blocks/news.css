@@ -9,14 +9,20 @@
   margin-bottom: 51px;
 }
 
+.news__list {
+  display: flex;
+  justify-content: space-between;
+}
+
 .news__item {
-  position: relative;
-  display: inline-flex;
-  vertical-align: top;
-  width: 557px;
-  overflow: hidden;
-  margin-right: 22px;
   margin-bottom: 58px;
+  margin-right: 2%;
+  flex: 1;
+}
+
+.single-news {
+  position: relative;
+  overflow: hidden;
 }
 
 .news__item:last-child {

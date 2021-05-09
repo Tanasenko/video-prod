@@ -8,33 +8,36 @@
   font-size: 48px;
   font-weight: bold;
   color: #1a1b1e;
+  padding-bottom: 25px;
 }
 
 .partners__item {
-  padding-top: 73px;
-  padding-bottom: 117px;
+  padding-top: 57px;
+  padding-bottom: 27px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: -46px;
 }
 
 .partner__items {
   max-width: 206px;
 }
 .partner__item {
+  margin-left: 46px;
+  margin-bottom: 36px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 64px;
+}
+
+.partner__link {
+  text-decoration: none;
+  width: 250px;
+  height: 100px;
   align-items: center;
-}
-
-.partner__item:last-child {
-  margin-bottom: 0;
-}
-
-.parter__img {
-  cursor: pointer;
+  justify-content: center;
   filter: grayscale(100%);
 }
 
-.parter__img:hover {
-  filter: grayscale(0%);
+.partner__link:hover {
+  filter: grayscale(0);
 }
