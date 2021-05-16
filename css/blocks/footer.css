@@ -78,7 +78,7 @@ footer .contacts {
   transform: translate(-50%, -50%);
   width: 36px;
   height: 36px;
-  background: url("/img/social/sprite.png") -122px -10px;
+  background: url("/video-prod/img/social/sprite.png") -122px -10px;
 }
 
 .social__img--tg:before {
@@ -90,7 +90,7 @@ footer .contacts {
   transform: translate(-50%, -50%);
   width: 36px;
   height: 36px;
-  background: url("/img/social/sprite.png") -66px -66px;
+  background: url("/video-prod/img/social/sprite.png") -66px -66px;
   opacity: 0;
   transition: 0.3s;
 }
@@ -113,7 +113,7 @@ footer .contacts {
   transform: translate(-50%, -50%);
   width: 36px;
   height: 36px;
-  background: url("/img/social/sprite.png") -66px -122px;
+  background: url("/video-prod/img/social/sprite.png") -66px -122px;
 }
 
 .social__img--vk:before {
@@ -125,7 +125,7 @@ footer .contacts {
   transform: translate(-50%, -50%);
   width: 36px;
   height: 36px;
-  background: url("/img/social/sprite.png") -122px -66px;
+  background: url("/video-prod/img/social/sprite.png") -122px -66px;
   opacity: 0;
   transition: 0.3s;
 }
@@ -148,7 +148,7 @@ footer .contacts {
   transform: translate(-50%, -50%);
   width: 36px;
   height: 36px;
-  background: url("/img/social/sprite.png") -10px -10px;
+  background: url("/video-prod/img/social/sprite.png") -10px -10px;
 }
 
 .social__img--face:before {
@@ -160,7 +160,7 @@ footer .contacts {
   transform: translate(-50%, -50%);
   width: 36px;
   height: 36px;
-  background: url("/img/social/sprite.png") -10px -122px;
+  background: url("/video-prod/img/social/sprite.png") -10px -122px;
   opacity: 0;
   transition: 0.3s;
 }
