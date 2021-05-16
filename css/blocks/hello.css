@@ -44,6 +44,7 @@
 
 .botton--light:hover {
   color: #fff;
+  transition: 0.3s;
 }
 
 .botton--about {

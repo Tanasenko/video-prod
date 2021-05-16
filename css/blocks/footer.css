@@ -36,22 +36,7 @@ footer .menu {
 .social__img {
   width: 36px;
   height: 36px;
-}
-
-.social__img--tg:hover {
-  background-image: url("/video-prod/img/social/t1.png");
-}
-
-.social__img--vk:hover {
-  background-image: url("/video-prod/img/social/vk1.png");
-}
-
-.social__img--face:hover {
-  background-image: url("/video-prod/img/social/f1.png");
-}
-
-.social__img--inst:hover {
-  background-image: url("/video-prod/img/social/in1.png");
+  position: relative;
 }
 
 footer .contacts {
@@ -71,4 +56,146 @@ footer .contacts {
 
 .inner-footer {
   margin-top: auto;
+}
+
+/** Sprite **/
+
+.social__img--tg:hover::after {
+  background-position: -66px -66px;
+  opacity: 0;
+}
+
+.social__img--tg:hover:before {
+  opacity: 1;
+}
+
+.social__img--tg:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url("/img/social/sprite.png") -122px -10px;
+}
+
+.social__img--tg:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url("/img/social/sprite.png") -66px -66px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.social__img--vk:hover::after {
+  background-position: -122px -66px;
+  opacity: 0;
+}
+
+.social__img--vk:hover:before {
+  opacity: 1;
+}
+
+.social__img--vk:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url("/img/social/sprite.png") -66px -122px;
+}
+
+.social__img--vk:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url("/img/social/sprite.png") -122px -66px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.social__img--face:hover::after {
+  background-position: -10px -122px;
+  opacity: 0;
+}
+
+.social__img--face:hover:before {
+  opacity: 1;
+}
+
+.social__img--face:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url("/img/social/sprite.png") -10px -10px;
+}
+
+.social__img--face:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url("/img/social/sprite.png") -10px -122px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.social__img--inst:hover::after {
+  background-position: -10px -66px;
+  opacity: 0;
+}
+
+.social__img--inst:hover:before {
+  opacity: 1;
+}
+
+.social__img--inst:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url("/video-prod/img/social/sprite.png") -66px -10px;
+}
+
+.social__img--inst:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url("/video-prod/img/social/sprite.png") -10px -66px;
+  opacity: 0;
+  transition: 0.3s;
 }

@@ -35,6 +35,7 @@
 
 .menu__link:hover {
   color: #ff3d00;
+  transition: 0.3s;
 }
 
 .contacts {
@@ -42,6 +43,9 @@
   text-align: right;
   padding-top: 10px;
   line-height: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .contacts__phone {
@@ -53,4 +57,80 @@
   font-size: 13px;
   text-decoration: underline;
   color: #ff3d00;
+  cursor: pointer;
+}
+
+/** Dropdown **/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 97px;
+}
+
+.dropdown:hover .dropdown__menu {
+  right: 0;
+  opacity: 1;
+  margin-left: 33px;
+}
+
+.dropdown__menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  width: 160px;
+  height: 80px;
+  background-color: #fff;
+  color: #1e1f20;
+  border-radius: 5px;
+  padding: 22px 19px 15px;
+  font-size: 13px;
+  top: 100%;
+
+  margin-top: 15px;
+  opacity: 0;
+  transition: opacity 0.4s;
+  right: 99999px;
+}
+
+.dropdown__menu:after {
+  content: "";
+  display: block;
+  height: 30px;
+  left: 0;
+  right: 0;
+  top: -29px;
+  position: absolute;
+}
+
+.dropdown__menu:before {
+  content: "";
+  position: absolute;
+  transform: translate(75px, -35px);
+  border: 15px solid transparent;
+  width: 0;
+  height: 0;
+  border-bottom-color: #fff;
+  border-top-width: 0;
+  border-right-width: 15px;
+  border-left-width: 15px;
+}
+
+.dropdown__list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dropdown__item {
+  margin-bottom: 8px;
+}
+
+.dropdown__item:last-child {
+  margin-bottom: 0;
+}
+
+.dropdown__item--bold {
+  font-weight: 700;
 }

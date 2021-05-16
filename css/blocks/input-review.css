@@ -1,0 +1,99 @@
+.input-review {
+  background: #f4f5f5;
+  padding: 79px 0 96px 0;
+}
+
+.input__title {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 800;
+  color: #202020;
+  margin-bottom: 56px;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 27px;
+}
+
+.form__input {
+  flex: 1;
+  margin-right: 30px;
+  border-radius: 4px;
+  border: none;
+  background: #fff;
+  padding: 20px 30px;
+  font-size: 18px;
+  color: #1a1b1e;
+}
+
+.form__input::placeholder {
+  color: #666;
+}
+
+.form__input:last-child {
+  margin-right: 0;
+}
+
+.form__input:focus {
+  border: 1px solid #cccccc;
+  outline: none;
+}
+
+.form__input--textarea {
+  height: 232px;
+}
+
+.form__controls {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 24px;
+}
+
+.form__controls-title {
+  font-size: 18px;
+  color: #1a1b1e;
+  width: 39%;
+}
+
+.controls {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.controls__item {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.controls__elem {
+  cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+  background: #f2d4c9;
+}
+
+.controls__checkbox {
+  display: none;
+}
+
+.botons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.botons .botton {
+  color: #fff;
+}
+
+.botton--grey {
+  background: #8e8e8e;
+  margin-right: 13px;
+  padding: 18px 44px;
+}
+
+.botton--review {
+  padding: 18px 40px;
+}

@@ -16,4 +16,5 @@ ul.bread-crumbs li + li:before {
 
 .bread-crumbs__link:hover {
   color: #ff3d00;
+  transition: 0.3s;
 }

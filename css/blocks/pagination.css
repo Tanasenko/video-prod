@@ -24,6 +24,7 @@
 
 .pagination__item--active {
   background: #ff5500;
+  color: #fff;
 }
 
 .pagination_number {
