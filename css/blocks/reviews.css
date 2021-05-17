@@ -56,6 +56,8 @@
 .review__name:after {
   content: url("/video-prod/img/revews/vk-blue.png");
   height: 29px;
+  margin-left: 5px;
+}
 }
 
 .review__tags {
